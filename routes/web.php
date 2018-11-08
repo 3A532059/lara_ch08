@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-/*
+
 Route::get('/','HomeController@index');
 
 Route::pattern('student_no','s[0-9]{10}');
@@ -31,5 +31,5 @@ Route::group(['prefix'=>'student'],function(){
 Route::group(['namespace'=>'cool'],function (){
     Route::get('cool','Cool\TestController@index');
 });
-*/
+
 Route::get('/board', 'BoardController@getIndex');
