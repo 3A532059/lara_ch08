@@ -6,10 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 use \App\User as UserEloquent;
 use \App\Score as ScoreEloquent;
 
-use DB;
+use Illuminate\Support\Facades\DB;
 class Student extends Model
 {
-    //
+
     protected $table = 'student';
     public function user(){
         return $this->belongsTo(UserEloquent::class);
