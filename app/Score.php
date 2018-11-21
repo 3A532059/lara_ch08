@@ -3,7 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use \APP\Student as StudentEloquent;
+use \App\Student as StudentEloquent;
 
 class Score extends Model
 {
